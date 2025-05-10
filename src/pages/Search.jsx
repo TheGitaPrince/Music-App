@@ -12,8 +12,8 @@ function Search() {
   useEffect(() => {
     const list = songsData.filter(
       (song) =>
-        song.name.toLowerCase().includes(input) ||
-        song.singer.toLowerCase().includes(input)
+        song.name.toLowerCase().includes(input.toLowerCase()) ||
+        song.singer.toLowerCase().includes(input.toLowerCase())
     );
     setSongList(list);
   }, [input]);
