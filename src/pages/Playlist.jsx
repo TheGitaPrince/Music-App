@@ -7,8 +7,8 @@ function Playlist() {
   const songs = useSelector((state) => state.playlist);
 
   return (
-    <div className="w-full min-h-screen bg-black text-white flex flex-col items-center justify-center">
-      <div className="md:w-[60%] w-full overflow-auto no-scrollbar pt-3 pb-40 flex flex-col gap-2">
+    <div className="w-full min-h-screen bg-black text-white flex flex-col items-center ">
+      <div className="md:w-[60%] w-full overflow-auto no-scrollbar md:pt-8 pt-5 pb-40 flex flex-col gap-2">
         {songs.length > 0 ? (
           songs.map((song) => (
             <Card

@@ -7,8 +7,8 @@ function Like() {
   const songs = useSelector((state) => state.like);
 
   return (
-    <div className="w-full min-h-screen bg-black text-white flex flex-col items-center justify-center">
-      <div className="md:w-[60%] w-full overflow-auto no-scrollbar md:px-0 px-2 pt-3 pb-40 flex flex-col gap-2">
+    <div className="w-full min-h-screen bg-black text-white flex flex-col items-center">
+      <div className="md:w-[60%] w-full overflow-auto no-scrollbar md:px-0 px-2 md:pt-8 pt-5 pb-40 flex flex-col gap-2">
         {songs.length > 0 ? (
           songs.map((song) => (
             <Card
