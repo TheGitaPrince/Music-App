@@ -2,7 +2,7 @@
 
 A modern React-based music player application built with Vite, featuring dynamic playlist management, audio playback controls, and seamless state handling using React Context API.
 
-[Live Demo on Vercel](https://music-app-cyan.vercel.app/like)  
+[Live Demo on Vercel](https://music-app-cyan.vercel.app/)  
 [GitHub Repository](https://github.com/TheGitaPrince/Music-App)
 
 ---
